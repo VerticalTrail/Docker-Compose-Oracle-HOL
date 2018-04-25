@@ -105,9 +105,13 @@ $ docker build -t 12213-domain .
 Successfully tagged 12213-domain:latest
 ```
 
-13.	The Vertical Trail GitHub repository contains a sample domain properties file, plus a sample application that can be used to validate the full Oracle stack once is has been deployed. Change back to the home directory and clone this repository:
+13.	The Vertical Trail GitHub repository contains a sample domain properties file, plus a PDF version of this lab procedure. Change back to the home directory and clone this repository:
 
-```$ git clone https://github.com/verticaltrail/c18lv-XXX-lab.git```
+```
+$ cd /root
+
+$ git clone https://github.com/VerticalTrail/Docker-Compose-Oracle-HOL.git
+```
 
 The environment is now ready to build an Oracle stack containing a WebLogic environment with a MySQL database!
 
